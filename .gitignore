@@ -1,7 +1,7 @@
 #IGNORE CERTAIN SUBFIX
 *.user
 *.pyc
-*~
+*.py~
 
 #IGNORED FOLDERS
 build/
