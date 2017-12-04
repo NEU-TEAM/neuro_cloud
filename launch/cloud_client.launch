@@ -1,0 +1,10 @@
+<launch>
+  <node pkg="neuro_cloud" type="bridge.py" name="bridge" output="screen">
+  </node>
+
+  <node pkg="neuro_cloud" type="client.py" name="client" output="screen">
+    <param name="service" value="vision" />
+    <param name="action" value="start"/>
+  </node>
+
+</launch>
